@@ -1,3 +1,4 @@
+# Queue Class
 class Queue:
 
     # Method to initialise the object
