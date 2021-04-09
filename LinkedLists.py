@@ -13,16 +13,12 @@ class Node:
     def nodePrint(self):
         if self.next:
             type_of_data = str(type(self.data))
-            type_of_data = type_of_data.replace("<", "")
-            type_of_data = type_of_data.replace(">", "")
-            type_of_data = type_of_data.replace("class", "")
+            type_of_data = type_of_data[7 : len(type_of_data) - 1]
             print(self.data, type_of_data, sep = " :: ", end = " -> ")
             self.next.nodePrint()
         else:
             type_of_data = str(type(self.data))
-            type_of_data = type_of_data.replace("<", "")
-            type_of_data = type_of_data.replace(">", "")
-            type_of_data = type_of_data.replace("class", "")
+            type_of_data = type_of_data[7 : len(type_of_data) - 1]
             print(self.data, type_of_data, sep = " :: ")
 
 # LinkedList class
