@@ -6,6 +6,7 @@
 --Big-O notation of the algorithm at hand: O(n * log n)
 --It's that bad.. So move on from here.
 '''
+# The 'sort' method. It says for itself.
 def sort(li):
     ret_list = []
     while li: 
