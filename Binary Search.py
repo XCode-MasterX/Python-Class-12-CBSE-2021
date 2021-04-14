@@ -4,7 +4,7 @@
 --you have to use the -- 'max' function, and also reverse the '<' to '>' and '>' to '<'
 
 --Big-O notation of the algorithm at hand: O(n * log n)
---It's that bad.. So move on from here.
+--It's not that bad.. So move on from here.
 '''
 # The 'sort' method. It says for itself.
 def sort(li):
